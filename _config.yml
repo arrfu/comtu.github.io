@@ -26,13 +26,13 @@ blog:
     title: arrfu                                         # 网页标题
     url: http://arrfu.github.io/                         # 博客地址
     duoshuo: arrfu                                       # 多说ID       <---
-    tongji: e0d9a75a7e53b54cd1e6649facd5906e             # 百度统计ID   <--- 
-    clickiTongJi: 51831					 # Clicki统计ID <---
+    tongji:                                              # 百度统计ID   <--- 
+    clickiTongJi: 					                     # Clicki统计ID <---
     qiniu:                                               # 七牛云地址
 author:
     name: arrfu                                          # 作者名称
-    email: 876162987@qq.com                                # 邮箱地址
-    weibo: http://weibo.com/arrfu                        # 微博地址
+    email: root@arrfu.com                                # 邮箱地址
+    weibo: http://weibo.com/u/2104089844/home?leftnav=1                            # 微博地址
     github: https://github.com/arrfu                     # GitHub地址
     logo: /res/img/icon.jpg                              # logo地址
     douban:
