@@ -34,8 +34,8 @@ blockquote p {
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:com.tu@hotmail.com">com.tu@hotmail.com</a>  
 > 微&nbsp;&nbsp;博: <a href="http://weibo.com/comtu">@Comtu</a>  
 > 博&nbsp;&nbsp;客: <a href="http://arrfu.github.io/">arrfu</a>  
-> GitHub：[comtu](https://github.com/arrfu)  
-> Blog: [arrfu](http://arrfu.com)  
+> GitHub：[arrfu](https://github.com/arrfu)  
+> Bitbucket: [arrfu](https://bitbucket.org/arrfu)  
 > ....
 
 ---
