@@ -32,11 +32,11 @@ blockquote p {
 > 网名: arrfu   
 > Email: <a href="mailto:root@arrfu.com">root@arrfu.com</a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="mailto:com.tu@hotmail.com">com.tu@hotmail.com</a>  
-> 微&nbsp;&nbsp;博: <a href="http://weibo.com/comtu">@Comtu</a>  
+> 微&nbsp;&nbsp;博: <a href="http://weibo.com/u/2104089844">@arrfu</a>  
 > 博&nbsp;&nbsp;客: <a href="http://arrfu.github.io/">arrfu</a>  
 > GitHub：[arrfu](https://github.com/arrfu)  
 > Bitbucket: [arrfu](https://bitbucket.org/arrfu)  
+> QQ: [876162987]
 > ....
 
 ---
