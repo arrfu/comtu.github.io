@@ -2,10 +2,10 @@
 name: Github
 icon: fa fa-github-alt
 members:
-  - name: Comtu
+  - name: arrfu
     notnewblank: false
-    link: http://github.com/comtu
+    link: http://github.com/arrfu
 
-  - name: ComtuBlog
+  - name: arrfuBlog
     notnewblank: true
-    link: http://comtu.github.io/
+    link: http://arrfu.github.io/
