@@ -35,7 +35,7 @@ blockquote p {
 > 博&nbsp;&nbsp;客: <a href="http://arrfu.github.io/">www.arrfu.com</a>  
 > GitHub：[arrfu](https://github.com/arrfu)  
 > Bitbucket: [arrfu](https://bitbucket.org/arrfu)  
-> QQ: [876162987]
+> QQ: [876162987]<br />
 > ....
 
 ---
