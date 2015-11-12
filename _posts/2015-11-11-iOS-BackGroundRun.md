@@ -10,4 +10,5 @@ tags : [iOS ,EnterBackground, oc ]
 
 资料来源:
 
-[后台无线运行Demo源代码](https://github.com/mddios/runInBackground)
+[后台无线运行Demo源代码:https://github.com/mddios/runInBackground](https://github.com/mddios/runInBackground)
+[http://www.cnblogs.com/stoic/archive/2012/10/08/2785182.html](http://www.cnblogs.com/stoic/archive/2012/10/08/2785182.html)
