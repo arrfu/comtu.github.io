@@ -27,11 +27,11 @@ tags : [iOS ,EnterBackground, oc ]
 - (void)applicationDidFinishLaunching:(UIApplication*)application<br />
 	当程序载入后执行
 
-<br />
-    根据苹果文档中关于后台执行的描述，任何app都有10分钟左右的后台任务执行时间。 10分钟后，app会被iOS强行挂起。
 
+    根据苹果文档中关于后台执行的描述，任何app都有10分钟左右的后台任务执行时间。 10分钟后，app会被iOS强行挂起。
+    
 但是，有5类app允许有“无限的”后台运行时间：
-<br />
+
 1. Audio。
 
 2. Location/GPS。
