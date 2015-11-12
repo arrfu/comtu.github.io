@@ -33,7 +33,7 @@ tags : [iOS ,EnterBackground, oc ]
 但是，有5类app允许有“无限的”后台运行时间：
 <br />
 1. Audio。
-<br />
+
 2. Location/GPS。
 
 3. VoIP。
