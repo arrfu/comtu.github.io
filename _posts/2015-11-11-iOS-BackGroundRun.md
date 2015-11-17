@@ -10,8 +10,8 @@ tags : [iOS ,EnterBackground, oc ]
 
 1.各个程序运行状态时代理的回调：
 
-- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions<br />
-  告诉代理进程启动但还没进入状态保存<br />
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions   
+  告诉代理进程启动但还没进入状态保存    
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions<br />
   告诉代理启动基本完成程序准备开始运行<br />
 - (void)applicationWillResignActive:(UIApplication *)application<br />
