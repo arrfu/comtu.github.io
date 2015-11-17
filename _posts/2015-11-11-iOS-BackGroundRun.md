@@ -12,20 +12,20 @@ tags : [iOS ,EnterBackground, oc ]
 
 - (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions    
   告诉代理进程启动但还没进入状态保存       
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions<br />
-  告诉代理启动基本完成程序准备开始运行<br />
-- (void)applicationWillResignActive:(UIApplication *)application<br />
-  当应用程序将要入非活动状态执行，在此期间，应用程序不接收消息或事件，比如来电话了<br />
-- (void)applicationDidBecomeActive:(UIApplication *)application <br />
-  当应用程序入活动状态执行，这个刚好跟上面那个方法相反<br />
-- (void)applicationDidEnterBackground:(UIApplication *)application<br />
-  当程序被推送到后台的时候调用。所以要设置后台继续运行，则在这个函数里面设置即可<br />
-- (void)applicationWillEnterForeground:(UIApplication *)application<br />
-	当程序从后台将要重新回到前台时候调用，这个刚好跟上面的那个方法相反。<br />
-- (void)applicationWillTerminate:(UIApplication *)application<br />
-	当程序将要退出是被调用，通常是用来保存数据和一些退出前的清理工作。这个需要要设置UIApplicationExitsOnSuspend的键值。<br />
-- (void)applicationDidFinishLaunching:(UIApplication*)application<br />
-	当程序载入后执行
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions   
+  告诉代理启动基本完成程序准备开始运行   
+- (void)applicationWillResignActive:(UIApplication *)application   
+  当应用程序将要入非活动状态执行，在此期间，应用程序不接收消息或事件，比如来电话了   
+- (void)applicationDidBecomeActive:(UIApplication *)application    
+  当应用程序入活动状态执行，这个刚好跟上面那个方法相反   
+- (void)applicationDidEnterBackground:(UIApplication *)application   
+  当程序被推送到后台的时候调用。所以要设置后台继续运行，则在这个函数里面设置即可   
+- (void)applicationWillEnterForeground:(UIApplication *)application   
+   当程序从后台将要重新回到前台时候调用，这个刚好跟上面的那个方法相反。   
+- (void)applicationWillTerminate:(UIApplication *)application      
+   当程序将要退出是被调用，通常是用来保存数据和一些退出前的清理工作。这个需要要设置UIApplicationExitsOnSuspend的键值。   
+- (void)applicationDidFinishLaunching:(UIApplication*)application   
+  当程序载入后执行   
 
 
     根据苹果文档中关于后台执行的描述，任何app都有10分钟左右的后台任务执行时间。 10分钟后，app会被iOS强行挂起。
