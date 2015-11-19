@@ -7,7 +7,7 @@ date : 2015-11-08
 tags : [iOS ,localstring, oc ]
 ---
 
-<!-- more -->
+**设置默认语言国际化：**
 
 #define CURR_LANG                        ([[NSLocale preferredLanguages] objectAtIndex:0])   
 
