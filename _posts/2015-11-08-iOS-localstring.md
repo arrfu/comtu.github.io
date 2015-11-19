@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "iOS 本地默认语言国际化"
+title : "iOS 本地默认叼炸天"
 category : iOS
 duoshuo: true
 date : 2015-11-08
