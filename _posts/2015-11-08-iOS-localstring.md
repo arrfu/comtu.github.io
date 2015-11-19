@@ -7,6 +7,7 @@ date : 2015-11-08
 tags : [iOS ,localstring, oc ]
 ---
 
+<!-- more -->
 
 #define CURR_LANG                        ([[NSLocale preferredLanguages] objectAtIndex:0])   
 
