@@ -10,7 +10,7 @@ tags : [iOS ,localstring, oc ]
 **设置默认语言国际化：**
 
 <pre class="brush: oc;  ">
-  #define CURR_LANG                        ([[NSLocale preferredLanguages] objectAtIndex:0])   
+#define CURR_LANG                        ([[NSLocale preferredLanguages] objectAtIndex:0])   
 
 +(NSString *)JFLocalizedString:(NSString *)translation_key {   
     
