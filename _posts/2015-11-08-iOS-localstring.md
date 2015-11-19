@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "iOS 本地默认叼炸天"
+title : "iOS arrfu国际化"
 category : iOS
 duoshuo: true
 date : 2015-11-08
