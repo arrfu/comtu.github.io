@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "iOS arrfu国际化"
+title : "iOS 默认语言国际化"
 category : iOS
 duoshuo: true
 date : 2015-11-08
