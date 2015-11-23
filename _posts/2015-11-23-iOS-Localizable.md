@@ -8,7 +8,7 @@ tags : [iOS ,localstring, oc ]
 ---
 
 
-![](/res/img/blog/2014/10/28/Android_NDK_IDE_environment_one/Properties_C-C++.png)
+![oc](/res/img/blog/2014/10/28/Android_NDK_IDE_environment_one/Properties_C-C++.png)
 
 
 参考资料来源：   
