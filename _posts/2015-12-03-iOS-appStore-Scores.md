@@ -7,8 +7,8 @@ date : 2015-12-03
 tags : [iOS ,appStore, score ]
 ---
 
-**总结了2种进入App Store页面评分的方式，[Demo例子地址：](http://www.tuicool.com/articles/ZZzQru) 。**
-**方法一：直接通过URL地址跳转至AppStore**
+**总结了2种进入App Store页面评分的方式，[Demo例子地址：](http://www.tuicool.com/articles/ZZzQru) 。**  
+**方法一：直接通过URL地址跳转至AppStore**  
 
 <pre class="brush: oc;  ">
 
