@@ -14,11 +14,11 @@ tags : [iOS ,class prefix, oc ]
 **类前缀**
 苹果官方建议两个字母作为前缀的类名是为官方的库和框架准备的，而对于作为第三方开发者的我们，官方建议使用3个或   
 者更多的字母作为前缀去命名我们的类:   
-[官网地址:https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Conventions/Conventions.html](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Conventions/Conventions.html)。   
+[官网地址:https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Conventions](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Conventions/Conventions.html)。   
 
 **一个资深的Mac或iOS开发者可能会记得下面大部分的缩写标识符：**
 
-Prefix	Frameworks   
+Prefix	Frameworks    
 AB	AddressBook / AddressBookUI   
 AC	Accounts   
 AD	iAd   
