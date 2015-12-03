@@ -7,7 +7,7 @@ date : 2015-12-03
 tags : [iOS ,appStore, score ]
 ---
 
-**总结了2种进入App Store页面评分的方式**  
+**今天整理了下评分模块，总结了2种进入App Store页面评分的方式，记录下来，分享给大家**  
 分别是：  
 1.直接跳转至AppStore商店应用。  
 2.应用内部嵌入AppStore商店应用。    
