@@ -11,7 +11,7 @@ tags : [iOS ,appStore, score ]
 分别是：  
 1.直接跳转至AppStore商店应用。  
 2.应用内部嵌入AppStore商店应用。    
-[Demo例子地址：](http://www.tuicool.com/articles/ZZzQru)     
+[Demo例子地址：https://github.com/arrfu/appStoreScoreDemo](https://github.com/arrfu/appStoreScoreDemo)     
 
 **方法一：直接通过URL地址跳转至AppStore**    
 
