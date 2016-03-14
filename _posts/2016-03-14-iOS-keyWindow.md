@@ -7,7 +7,8 @@ date : 2016-03-14
 tags : [iOS ,keyWindow]
 ---
 
-**[UIApplication sharedApplication].keyWindow 添加视图无效做法：**  
+**[UIApplication sharedApplication].keyWindow 添加视图无效**  
+**解决办法:**
 
 iOS 7使用：
 <pre class="brush: oc;  ">
