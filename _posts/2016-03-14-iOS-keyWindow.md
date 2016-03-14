@@ -25,6 +25,6 @@ iOS 8以上使用：
 </pre>
 
 原因：
-      在iOS 7中，调试输出可已看到[UIApplication sharedApplication].keyWindow的值为nil ，这是因为 appdelegate 中的keyWindow没有创建成功
+      在iOS 7中，调试输出可以看到[UIApplication sharedApplication].keyWindow的值为nil ，这是因为 appdelegate 中的keyWindow没有创建成功
       ，故添加无效。在iOS 8中，苹果解决了此问题。
 
