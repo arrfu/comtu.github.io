@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "iOS [UIApplication sharedApplication].keyWindow 添加视图无效
+title : "iOS [UIApplication sharedApplication].keyWindow 添加视图无效"
 category : iOS
 duoshuo: true
 date : 2016-03-14
