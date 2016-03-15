@@ -1,10 +1,10 @@
 ---
 layout : post
-title : "iOS [UIApplication sharedApplication].keyWindow 添加视图无效"
+title : "iOS 设置AVAudioSessionInterruptionNotification通知无效
 category : iOS
 duoshuo: true
 date : 2016-03-15
-tags : [iOS ,AVAudioSessionInterruptionNotification]
+tags : [iOS ,AVAudioSessionInterruptionNotification,Interruption]
 ---
 
 **设置AVAudioSessionInterruptionNotification通知无效**  
