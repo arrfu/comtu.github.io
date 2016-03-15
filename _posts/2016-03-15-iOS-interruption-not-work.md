@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "iOS 设置AVAudioSessionInterruptionNotification通知无效
+title : "iOS 设置AVAudioSessionInterruptionNotification通知无效"
 category : iOS
 duoshuo: true
 date : 2016-03-15
