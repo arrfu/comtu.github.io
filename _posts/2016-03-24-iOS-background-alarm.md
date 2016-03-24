@@ -8,6 +8,7 @@ tags : [iOS ,AVAudioSession,alarm]
 ---
 
 **一.什么是AVAudioSession ？**  
+     我的理解就是一个应用最基本的音频配置，来设置基本的应用与系统之间的音频处理方式。   
 
 1). Audio Session 各个参数类别的作用及定义：   
 [https://developer.apple.com/library/prerelease/tvos/documentation/Audio/Conceptual/AudioSessionProgrammingGuide/ConfiguringanAudioSession/ConfiguringanAudioSession.html](https://developer.apple.com/library/prerelease/tvos/documentation/Audio/Conceptual/AudioSessionProgrammingGuide/ConfiguringanAudioSession/ConfiguringanAudioSession.html)
