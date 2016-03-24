@@ -9,6 +9,12 @@ tags : [iOS ,AVAudioSession,alarm]
 
 **一.什么是AVAudioSession ？**  
 
+1). Audio Session 各个参数类别的作用及定义：
+[Audio Session 各个参数类别的作用及定义地址:](https://developer.apple.com/library/prerelease/tvos/documentation/Audio/Conceptual/AudioSessionProgrammingGuide/ConfiguringanAudioSession/ConfiguringanAudioSession.html)
+
+2).配置音频后台播放及官方资料：
+[配置音频后台播放及官方资料地址:](https://developer.apple.com/library/ios/qa/qa1668/_index.html)
+
 **二.AVAudioSession在开发中的应用**
 
 1）应用里的音频播放时是否要和其他应用的音频实现混音？或者让其他音频静音？   
@@ -22,11 +28,15 @@ tags : [iOS ,AVAudioSession,alarm]
 **1.实现方式：**
 
 1).设置后台无限运行   
+方式：当程序退回后台时，系统会允许应用5分钟的存活时间。在这段时间里，启动一个定时器，每间隔一两分钟就执行播放一段非常短的无声音频，来继续获取系统重新的5分钟的存活时间，达到在后台无限运行的效果。   
+
+[后台无线运行Demo例子: https://github.com/mddios/runInBackground](https://github.com/mddios/runInBackground)<br />
 
 2).设置定时闹钟   
 方式：使用本地通知 UILocalNotification + 播放器AVAudioPlayer   
 
 3).闹钟响起时   
+方式：弹出本地通知及播放指定歌曲   
 
 **2.遇到的问题：**
 
@@ -69,10 +79,11 @@ tags : [iOS ,AVAudioSession,alarm]
      
 <pre class="brush: oc;  ">
 
-     //监听电话进来 或 打开其他APP音乐播放歌曲时接收的中断信息
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onAudioSessionEvent:) name:AVAudioSessionInterruptionNotification object:nil];
+//监听电话进来 或 打开其他APP音乐播放歌曲时接收的中断信息
+[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onAudioSessionEvent:) name:AVAudioSessionInterruptionNotification object:nil];
     
-    -(void)onAudioSessionEvent:(NSNotification*)noty{
+// 中断处理
+-(void)onAudioSessionEvent:(NSNotification*)noty{
     NSLog(@"%@",noty.userInfo);
 
     NSDictionary *dict = noty.userInfo;
@@ -82,10 +93,27 @@ tags : [iOS ,AVAudioSession,alarm]
        //当中断结束时
     }
 }
-
-
 </pre>
 
+解决办法：   
+     在应用进入前台时，设置AVAudioSession的参数为AVAudioSessionCategorySoloAmbient选项，即关闭其他APP应用播放器音乐；但是此选项不支持后台音乐播放，故需要再次设置AVAudioSession的参数为AVAudioSessionCategoryPlayback，即允许后台播放歌曲。
+     
 <pre class="brush: oc;  ">
+// 应用进入前台
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+    //允许应用程序接收远程控制
+    [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
+
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    
+    // 设置为暂停其他播放器音乐
+    [session setCategory:AVAudioSessionCategorySoloAmbient error:nil];
+
+    // 设置播放器为允许后台播放
+    [session setCategory:AVAudioSessionCategoryPlayback withOptions:AVAudioSessionCategoryOptionDefaultToSpeaker error:nil];
+    [session setActive:YES error:nil];
+}
+
 
 </pre>
