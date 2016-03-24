@@ -9,11 +9,11 @@ tags : [iOS ,AVAudioSession,alarm]
 
 **一.什么是AVAudioSession ？**  
 
-1). Audio Session 各个参数类别的作用及定义：
-[Audio Session 各个参数类别的作用及定义地址:](https://developer.apple.com/library/prerelease/tvos/documentation/Audio/Conceptual/AudioSessionProgrammingGuide/ConfiguringanAudioSession/ConfiguringanAudioSession.html)
+1). Audio Session 各个参数类别的作用及定义：   
+[https://developer.apple.com/library/prerelease/tvos/documentation/Audio/Conceptual/AudioSessionProgrammingGuide/ConfiguringanAudioSession/ConfiguringanAudioSession.html](https://developer.apple.com/library/prerelease/tvos/documentation/Audio/Conceptual/AudioSessionProgrammingGuide/ConfiguringanAudioSession/ConfiguringanAudioSession.html)
 
-2).配置音频后台播放及官方资料：
-[配置音频后台播放及官方资料地址:](https://developer.apple.com/library/ios/qa/qa1668/_index.html)
+2).配置音频后台播放及官方资料：   
+[https://developer.apple.com/library/ios/qa/qa1668/_index.html](https://developer.apple.com/library/ios/qa/qa1668/_index.html)
 
 **二.AVAudioSession在开发中的应用**
 
