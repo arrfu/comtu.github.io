@@ -31,8 +31,7 @@ tags : [iOS ,AVAudioSession,alarm]
 **2.遇到的问题：**
 
 问题1：   
-     在设置定时闹钟后，退回后台；打开第三方播放器播（例如酷狗音乐）播放歌曲，当定时闹钟时间到后，弹出本地通知，但是设置的播放闹铃歌曲   
-  并没有播放出来。经调试发现，此时在后台中执行setActive失败：   
+     在设置定时闹钟后，退回后台；打开第三方播放器播（例如酷狗音乐）播放歌曲，当定时闹钟时间到后，弹出本地通知，但是设置的播放闹铃歌曲并没有播放出来。经调试发现，此时在后台中执行setActive失败：   
   
 <pre class="brush: oc;  ">
     BOOL activated = [[AVAudioSession sharedInstance] setActive:YES error:&error];
@@ -46,8 +45,7 @@ tags : [iOS ,AVAudioSession,alarm]
     
     
 解决办法：   
-    在定时闹钟时间到后，设置AVAudioSession参数为允许其他播放器混音选项AVAudioSessionCategoryOptionMixWithOthers；这样就能解决后台播放   
-  失败的问题。   
+    在定时闹钟时间到后，设置AVAudioSession参数为允许其他播放器混音选项AVAudioSessionCategoryOptionMixWithOthers；这样就能解决后台播放失败的问题。   
 
 <pre class="brush: oc;  ">
   // 设置接受远程控制事件
@@ -63,6 +61,31 @@ tags : [iOS ,AVAudioSession,alarm]
   //播放歌曲
   _play = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];
   [_play play];
+</pre>
 
+问题2：   
+     设置了混音AVAudioSessionCategoryOptionMixWithOthers后，虽然能决解了后台定时闹钟响铃失败的问题，但是若此时打开自己APP的播放器播放歌曲，会发现自己的APP无法暂停其他APP播放器（如酷狗播放器）的音乐；别的APP播放器也暂停不了自己APP的音乐。   
+     调试发现，之前设置的接收中断通知服务失效：
+     
+<pre class="brush: oc;  ">
+
+     //监听电话进来 或 打开其他APP音乐播放歌曲时接收的中断信息
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onAudioSessionEvent:) name:AVAudioSessionInterruptionNotification object:nil];
+    
+    -(void)onAudioSessionEvent:(NSNotification*)noty{
+    NSLog(@"%@",noty.userInfo);
+
+    NSDictionary *dict = noty.userInfo;
+    if ([dict[AVAudioSessionInterruptionTypeKey]integerValue]==AVAudioSessionInterruptionTypeBegan) {
+        //正当音乐被其他应用或者电话中断时
+    }else if([dict[AVAudioSessionInterruptionTypeKey]integerValue]==AVAudioSessionInterruptionTypeEnded){
+       //当中断结束时
+    }
+}
+
+
+</pre>
+
+<pre class="brush: oc;  ">
 
 </pre>
