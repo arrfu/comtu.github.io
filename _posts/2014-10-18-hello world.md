@@ -51,7 +51,7 @@ _斜体_
 
 ---
 
-[我是链接,下面的是图片链接](http://comtu.github.com)
+[我是链接,下面的是图片链接](http://arrfu.github.com)
 
 ![图片链接](/res/img/icon.jpg)
 
@@ -71,7 +71,7 @@ _斜体_
 
 * ***2.加粗斜体内容***
 * 3.内容`颜色`背景
-* 4.[我是链接](http://comtu.github.com)
+* 4.[我是链接](http://arrfu.github.com)
 
 1. 内容1
 2. 内容2
