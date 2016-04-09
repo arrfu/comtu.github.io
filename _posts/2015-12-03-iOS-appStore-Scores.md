@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "iOS AppStore 评分Demo"
+title : "iOS AppStore 评分内嵌跳转Demo"
 category : iOS
 duoshuo: true
 date : 2015-12-03
