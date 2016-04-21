@@ -26,4 +26,4 @@ tags : [iOS ,xCode,Certificates,Distribution]
   6.Profile，不同的是个人、公司开发者账号有发布到 AppStore 的 Profile，而企业开发者账号则是 InHouse 企业内发布的 Profile。   
 
 
-**[文章链接地址:http://ios.jobbole.com/84643/](http://ios.jobbole.com/84643/)**
+**[详细文章链接地址:http://ios.jobbole.com/84643/](http://ios.jobbole.com/84643/)**
