@@ -11,7 +11,8 @@ tags : [iOS ,xCode,Certificates,Distribution]
 **本文出自:伯乐在线 - 小良  [文章链接地址:http://ios.jobbole.com/84643/](http://ios.jobbole.com/84643/)**   
 
 
-内容简介: 相关证书的创建，使用流程及注意事项。     
+内容简介: 相关证书的创建，使用流程及注意事项。  
+<p>
 
   1.Certificates: 证书，常用的证书类型有4种：真机调试证书、推送调试证书，发布证书、推送生产证书。   
   
@@ -24,6 +25,6 @@ tags : [iOS ,xCode,Certificates,Distribution]
   5.Provisioning Profiles: 配置文件(描述文件)，不同类型的开发者账号都包含 Development、AdHoc 这两种   
   
   6.Profile，不同的是个人、公司开发者账号有发布到 AppStore 的 Profile，而企业开发者账号则是 InHouse 企业内发布的 Profile。   
-
+</p>
 
 **[文章链接地址:http://ios.jobbole.com/84643/](http://ios.jobbole.com/84643/)**
