@@ -7,8 +7,10 @@ date : 2016-04-21
 tags : [iOS ,xCode,Certificates,Distribution]
 ---
 
-**本文出自:伯乐在线 - 小良  **      
-**[文章链接地址:http://ios.jobbole.com/84643/](http://ios.jobbole.com/84643/)**   
+<p>
+**本文出自:伯乐在线 - 小良        
+[文章链接地址:http://ios.jobbole.com/84643/](http://ios.jobbole.com/84643/)**   
+</p>
 
 内容简介: 相关证书的创建，使用流程及注意事项。     
 
