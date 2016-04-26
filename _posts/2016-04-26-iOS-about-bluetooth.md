@@ -11,7 +11,7 @@ tags : [iOS ,CoreBluetooth,CBPeripheral]
 
 ***
 **文章一：**
-**本文出自:coderyi  [文章链接地址:http://www.coderyi.com/archives/137)**   
+**本文出自:coderyi  [文章链接地址:http://www.coderyi.com/archives/137](http://www.coderyi.com/archives/137)**   
 ***
    
      
@@ -26,13 +26,13 @@ tags : [iOS ,CoreBluetooth,CBPeripheral]
 除了中央和周边，我们还要考虑他俩交换的数据结构。这些数据在服务中被结构化，每个服务由不同的特征（Characteristics）组成，特征是包含一个单一逻辑值的属性类型。      
 
 
-**[详细文章链接地址:http://www.coderyi.com/archives/137)**   
+**[详细文章链接地址:http://www.coderyi.com/archives/137](http://www.coderyi.com/archives/137)**   
 
 
 
 ***
 **文章二：**
-**本文出自:liuyanwei  [文章链接地址:http://liuyanwei.jumppo.com/2015/07/17/ios-BLE-1.html)**   
+**本文出自:liuyanwei  [文章链接地址:http://liuyanwei.jumppo.com/2015/07/17/ios-BLE-1.html](http://liuyanwei.jumppo.com/2015/07/17/ios-BLE-1.html)**   
 ***
 
 内容简介: 
@@ -75,5 +75,5 @@ peripheral模式的流程
 >3.链式方法体，代码更简洁、优雅。   
 >4.通过channel切换区分委托调用，并方便切换   
 
-**[详细文章链接地址:http://liuyanwei.jumppo.com/2015/07/17/ios-BLE-1.html)**   
+**[详细文章链接地址:http://liuyanwei.jumppo.com/2015/07/17/ios-BLE-1.html](http://liuyanwei.jumppo.com/2015/07/17/ios-BLE-1.html)**   
 **[Demo地址:https://github.com/coolnameismy/BabyBluetooth](https://github.com/coolnameismy/BabyBluetooth)**
