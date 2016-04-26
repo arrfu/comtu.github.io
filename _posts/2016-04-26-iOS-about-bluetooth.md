@@ -76,3 +76,4 @@ peripheral模式的流程
 >4.通过channel切换区分委托调用，并方便切换   
 
 **[详细文章链接地址:http://liuyanwei.jumppo.com/2015/07/17/ios-BLE-1.html)**   
+**[Demo地址:https://github.com/coolnameismy/BabyBluetooth](https://github.com/coolnameismy/BabyBluetooth)**
