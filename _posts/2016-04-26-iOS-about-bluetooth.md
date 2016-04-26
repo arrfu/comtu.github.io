@@ -7,10 +7,12 @@ date : 2016-04-26
 tags : [iOS ,CoreBluetooth,CBPeripheral]
 ---
 
+
+
 ***
 **文章一：**
 **本文出自:coderyi  [文章链接地址:http://www.coderyi.com/archives/137)**   
-
+***
 
 内容简介:   
 
@@ -23,10 +25,12 @@ tags : [iOS ,CoreBluetooth,CBPeripheral]
 
 **[详细文章链接地址:http://www.coderyi.com/archives/137)**   
 
+
+
 ***
 **文章二：**
 **本文出自:liuyanwei  [文章链接地址:http://liuyanwei.jumppo.com/2015/07/17/ios-BLE-1.html)**   
-
+***
 
 内容简介: 
 
@@ -58,9 +62,9 @@ peripheral模式的流程
 >2. 创建characteristics，characteristics的description 创建service，把characteristics添加到service中，再把service添加到peripheralManager中
 >3. 开启广播advertising
 >4. 对central的操作进行响应
-    - >4.1 读characteristics请求
-    - >4.2 写characteristics请求
-    - >4.4 订阅和取消订阅characteristics
+    >4.1 读characteristics请求
+    >4.2 写characteristics请求
+    >4.4 订阅和取消订阅characteristics
     
 4.ios蓝牙开发（四）BabyBluetooth蓝牙库介绍
 >1.基于原生CoreBluetooth框架封装的轻量级的开源库，可以帮你更简单地使用CoreBluetooth API。
