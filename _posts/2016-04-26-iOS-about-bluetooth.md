@@ -39,13 +39,13 @@ tags : [iOS ,CoreBluetooth,CBPeripheral]
 
 1.iOS蓝牙开发（一）蓝牙相关基础知识    
 蓝牙常见名称和缩写       
-MFI ======= make for ipad ,iphone, itouch 专们为苹果设备制作的设备   
-BLE ==== buletouch low energy，蓝牙4.0设备因为低耗电，所以也叫做BLE   
-peripheral,central == 外设和中心,发起连接的时central，被连接的设备为perilheral   
-service and characteristic === 服务和特征    每个设备会提供服务和特征，类似于服务端的api，但是机构不同。每个外设会有很多服务，每个服务中包含很多字段，这些字段的权限一般分为    读read，写write，通知notiy几种，就是我们连接设备后具体需要操作的内容。   
-Description 每个characteristic可以对应一个或多个Description用户描述characteristic的信息或属性   
-MFI === 开发使用ExternalAccessory 框架   
-4.0 BLE === 开发使用CoreBluetooth 框架   
+>1.MFI ======= make for ipad ,iphone, itouch 专们为苹果设备制作的设备   
+>2.BLE ==== buletouch low energy，蓝牙4.0设备因为低耗电，所以也叫做BLE   
+>3.peripheral,central == 外设和中心,发起连接的时central，被连接的设备为perilheral   
+>4.service and characteristic === 服务和特征    >5.每个设备会提供服务和特征，类似于服务端的api，但是机构不同。每个外设会有很多服务，每个服务中包含很多字段，这些字段的权限一般分为    读read，写write，通知notiy几种，就是我们连接设备后具体需要操作的内容。   
+>6.Description 每个characteristic可以对应一个或多个Description用户描述characteristic的信息或属性   
+>7.MFI === 开发使用ExternalAccessory 框架   
+>8.4.0 BLE === 开发使用CoreBluetooth 框架   
 
 2.ios蓝牙开发（二）ios连接外设的代码实现   
 >1. 建立中心角色
