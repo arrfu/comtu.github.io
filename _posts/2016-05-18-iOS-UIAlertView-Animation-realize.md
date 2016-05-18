@@ -31,7 +31,7 @@ tags : [iOS ,UIAlertView,Animation]
 
 Objc Runtime是由一组处理Objctive-C动态语言运行时的API函数组成，这些函数都是一些比较底层的C函数。它有很多实用功能比如查看对象的成员，类/对象方法签名等等。这次我们要用的就是其中把对象方法调用替换的API。
 
-<pre>
+<pre class="brush: oc;  ">
 void method_exchangeImplementations(Method m1, Method m2) 
 </pre>
 
@@ -43,11 +43,12 @@ void method_exchangeImplementations(Method m1, Method m2)
 
 <pre>
 
-@implementation CALayer(Hacked)
+@implementation CALayer(Hacked)   
 
-+ (void)load{
-    method_exchangeImplementations(class_getInstanceMethod([CALayer class], @selector(addAnimation:forKey:)), class_getInstanceMethod([CALayer class], @selector(hackedAddAnimation:forKey:)));
-}
++ (void)load{   
+    method_exchangeImplementations(class_getInstanceMethod([CALayer class], @selector(addAnimation:forKey:)), 
+class_getInstanceMethod([CALayer class], @selector(hackedAddAnimation:forKey:)));   
+}   
 
 - (void)hackedAddAnimation:(CABasicAnimation *)anim forKey:(NSString *)key{
     [self hackedAddAnimation:anim forKey:key];
