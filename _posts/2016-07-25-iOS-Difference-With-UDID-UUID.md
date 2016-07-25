@@ -7,7 +7,7 @@ date : 2016-07-25
 tags : [iOS ,UUID,UDID]
 ---
 
-####一.UUID (Universally Unique IDentifier)     
+一.UUID (Universally Unique IDentifier)     
 
 UUID是Universally Unique Identifier的缩写,中文意思是通用唯一识别码.     
 
@@ -15,7 +15,7 @@ UUID是Universally Unique Identifier的缩写,中文意思是通用唯一识别�
 
 
 
-####一.UDID (Unique Device Identifier)      
+二.UDID (Unique Device Identifier)      
 
 UDID是Unique Device Identifier的缩写,中文意思是设备唯一标识   
 
