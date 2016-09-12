@@ -14,3 +14,6 @@ tags : [iOS ,Xcode,Exception]
 
 解决办法：       
   删除plist中不存在的字体文件字段。   
+
+如图：   
+![图](/res/img/blog/2016/09/iOS-2016-09-12-exception-error.png )
