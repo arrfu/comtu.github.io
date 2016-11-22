@@ -258,3 +258,5 @@ func testCloser8(){
 }
  </pre>
  
+#八、Demo 地址：
+ https://github.com/arrfu/My-Swift3-Study/tree/master/swift3StudyDemo/JFClosuresDemo
