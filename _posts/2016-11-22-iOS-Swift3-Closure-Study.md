@@ -7,11 +7,11 @@ date : 2016-11-22
 tags : [iOS ,swift,closure]
 ---
 
-#一、什么是闭包：
+**一、什么是闭包：**
   * 闭包是自包含的函数代码块，可以在代码中被传递和使用。   
   * Swift 中的闭包与 C 和 Objective-C 中的代码块（blocks）以及其他一些编程语言中的匿名函数比较相似。   
   
-#二、闭包的语法表达式：
+**二、闭包的语法表达式：**
 
 <pre class="brush: swift;  ">
  { (parameters/接收的参数) -> (return type/闭包返回值类型) in
