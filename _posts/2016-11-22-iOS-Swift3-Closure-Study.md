@@ -41,8 +41,9 @@ func testClosure1(){
 
  
 * 闭包形式2
-{% highlight swift %}
 <pre class="brush: swift;  ">
+{% highlight swift %}
+
 func testClosure2(){
     // 2.简化
     let closureAdd:(_ num1:Int,_ num2:Int) -> Int
@@ -55,8 +56,9 @@ func testClosure2(){
     let reslut = closureAdd(2, 3)
     print("reslut = \(reslut)")
 }
- </pre>
+
 {% endhighlight %}
+ </pre>
 
 * 闭包形式3
 {% highlight swift %}
