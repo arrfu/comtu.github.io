@@ -9,7 +9,8 @@ tags : [iOS ,swift,closure]
 
 ******
 
-**一、什么是闭包：**           
+**一、什么是闭包：**     
+
   * 闭包是自包含的函数代码块，可以在代码中被传递和使用。   
   * Swift 中的闭包与 C 和 Objective-C 中的代码块（blocks）以及其他一些编程语言中的匿名函数比较相似。   
   
@@ -22,7 +23,7 @@ tags : [iOS ,swift,closure]
 
 <!-- more -->
  
-#三、闭包的使用例子：
+**三、闭包的使用例子：**
  
 * 闭包形式1
 {% highlight swift %}
@@ -95,7 +96,7 @@ func testClosure4(){
 
 {% endhighlight %}
 
-#四、闭包的使用：值捕获
+**四、闭包的使用：值捕获**
 
 定义：   
   * Swift 中，可以捕获值的闭包的最简单形式是嵌套函数，也就是定义在其他函数的函数体内的函数。   
@@ -134,7 +135,7 @@ func testClosure5(){
 
 {% endhighlight %}
 
-#五、闭包的使用：尾随闭包
+**五、闭包的使用：尾随闭包**
 
 定义：    
   * 如果你需要将一个很长的闭包表达式作为最后一个参数传递给函数，可以使用尾随闭包来增强函数的可读性。   
@@ -182,7 +183,7 @@ func testClosure6(){
 
 {% endhighlight %}
 
-#六、闭包的使用：逃逸闭包
+**六、闭包的使用：逃逸闭包**
 
 定义：   
   * 当一个闭包作为参数传到一个函数中，但是这个闭包在函数返回之后才被执行，我们称该闭包从函数中逃逸。   
@@ -214,7 +215,7 @@ func testCloser7(){
 
 {% endhighlight %}
 
-#七、闭包的使用：自动闭包
+**七、闭包的使用：自动闭包**
  
  定义：   
   * 自动闭包是一种自动创建的闭包，用于包装传递给函数作为参数的表达式。   
@@ -273,5 +274,5 @@ func testCloser8(){
 
 {% endhighlight %}
 
-#八、Demo 地址：   
+**八、Demo 地址：**   
  [https://github.com/arrfu/My-Swift3-Study/tree/master/swift3StudyDemo/JFClosuresDemo](https://github.com/arrfu/My-Swift3-Study/tree/master/swift3StudyDemo/JFClosuresDemo)
