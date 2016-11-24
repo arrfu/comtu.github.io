@@ -30,7 +30,7 @@ tags : [iOS ,json,crash]
 
   那怎么处理才能解决这个问题呢？我找到的几种解决方式总结如下：`(PS:如果你有更好的解决方案，请务必告知一声，非常感谢！)`      
   
-    * **1.较直接的方式：**
+  * **1.较直接的方式：**
   
     当我们使用AFNetwork第三方库访问服务器的时候，可以用它自带的清除空值属性 `removesKeysWithNullValues` 为我们自动处理返回数据中携带空值的字段。  
     
@@ -47,16 +47,19 @@ tags : [iOS ,json,crash]
   self.removesKeysWithNullValues = YES;
 {% endhighlight %}
    这样的话,后台返回的JSON数据中空的键值对,将会被自动删除,可以避免我们对这些空值做操作,造成崩溃问题.   
+   
   
-    * **2.使用第三方框架：**
+  * **2.使用第三方框架：**
   
    利用第三方框架处理服务器返回的JSON数据，将空值设置为nil，而nil是安全的，可以向nil对象发送任何message而不会奔溃。      
    
    github上比较多人使用的是`NullSafe` ，使用方式简单，直接将该分类拖入工程中即可。        
    
    [链接地址：https://github.com/nicklockwood/NullSafe](https://github.com/nicklockwood/NullSafe)       
+   
+   
   
-    * **3.给自己的程序添加容错处理：**
+  * **3.给自己的程序添加容错处理：**
   
     很多人为了方便省事，常常直接对传进来的参数做各种操作处理，而不考虑该参数是否合法，这样对自己的程序往往是致命性的。    
     
