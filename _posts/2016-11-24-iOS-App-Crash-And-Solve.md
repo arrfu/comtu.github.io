@@ -51,12 +51,15 @@ tags : [iOS ,json,crash]
     * **2.使用第三方框架：**
   
    利用第三方框架处理服务器返回的JSON数据，将空值设置为nil，而nil是安全的，可以向nil对象发送任何message而不会奔溃。      
+   
    github上比较多人使用的是`NullSafe` ，使用方式简单，直接将该分类拖入工程中即可。        
+   
    [链接地址：https://github.com/nicklockwood/NullSafe](https://github.com/nicklockwood/NullSafe)       
   
     * **3.给自己的程序添加容错处理：**
   
     很多人为了方便省事，常常直接对传进来的参数做各种操作处理，而不考虑该参数是否合法，这样对自己的程序往往是致命性的。    
+    
     好的编程习惯应当给自己编写的代码添加容错处理，判断参数的合法性，增强程序的健壮性尤为重要。     
 
 
