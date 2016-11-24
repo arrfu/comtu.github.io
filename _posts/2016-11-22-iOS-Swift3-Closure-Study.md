@@ -9,7 +9,7 @@ tags : [iOS ,swift,closure]
 
 ******
 
-**一、什么是闭包：**     
+**一、什么是闭包：**           
   * 闭包是自包含的函数代码块，可以在代码中被传递和使用。   
   * Swift 中的闭包与 C 和 Objective-C 中的代码块（blocks）以及其他一些编程语言中的匿名函数比较相似。   
   
@@ -41,7 +41,7 @@ func testClosure1(){
 
  
 * 闭包形式2
-<pre class="brush: swift;  ">
+
 {% highlight swift %}
 
 func testClosure2(){
@@ -58,11 +58,11 @@ func testClosure2(){
 }
 
 {% endhighlight %}
- </pre>
+
 
 * 闭包形式3
 {% highlight swift %}
-<pre class="brush: swift;  ">
+
 func testClosure3(){
     // 3.简化（当闭包没有接收参数时，可省略in关键字）
     let closureAdd:() -> Int
@@ -75,12 +75,12 @@ func testClosure3(){
     let reslut = closureAdd()
     print("reslut = \(reslut)")
 }
- </pre>
+
 {% endhighlight %}
 
 * 闭包形式4
 {% highlight swift %}
-<pre class="brush: swift;  ">
+
 func testClosure4(){
     // 4.简化（省略参数名，用$0,$1,$2,$3,...代替）
     let closureAdd:(Int,Int) -> Int
@@ -92,7 +92,7 @@ func testClosure4(){
     let reslut = closureAdd(2,3)
     print("reslut = \(reslut)")
 }
- </pre>
+
 {% endhighlight %}
 
 #四、闭包的使用：值捕获
@@ -103,7 +103,7 @@ func testClosure4(){
 
 例子：   
 {% highlight swift %}
-<pre class="brush: swift;  ">
+
 func testClosure5(){
     // 值捕获
     func makeIncrease(forIncrese num:Int) ->() -> Int{
@@ -131,7 +131,7 @@ func testClosure5(){
     print(increaseFunc2())// 15
     
 }
- </pre>
+
 {% endhighlight %}
 
 #五、闭包的使用：尾随闭包
@@ -143,7 +143,6 @@ func testClosure5(){
 
 例子：   
 {% highlight swift %}
-<pre class="brush: swift;  ">
 func testClosure6(){
 
     // 参数：一个Int型参数，一个函数型参数,返回值：String型
@@ -180,7 +179,7 @@ func testClosure6(){
     
     print(result3)
 }
- </pre>
+
 {% endhighlight %}
 
 #六、闭包的使用：逃逸闭包
@@ -191,7 +190,7 @@ func testClosure6(){
  
 例子：   
 {% highlight swift %}
-<pre class="brush: swift;  ">
+
 func testCloser7(){
     // 关键字：@escaping
     
@@ -212,7 +211,7 @@ func testCloser7(){
     print(closerArray.first?(num))
 }
 
- </pre>
+
 {% endhighlight %}
 
 #七、闭包的使用：自动闭包
@@ -224,7 +223,7 @@ func testCloser7(){
   
 例子：   
 {% highlight swift %}
- <pre class="brush: swift;  ">
+
 
 func testCloser8(){
     // 关键字：@autoclosure
@@ -271,7 +270,7 @@ func testCloser8(){
     namePrint1(nameHandle: haveSomeFun()) // 可直接传入函数，而不是闭包
     // 被 @autoclosure 标记的参数 nameHandle 将自动转化为一个闭包。
 }
- </pre>
+
 {% endhighlight %}
 
 #八、Demo 地址：   
