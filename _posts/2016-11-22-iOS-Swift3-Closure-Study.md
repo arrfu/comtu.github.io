@@ -41,6 +41,7 @@ func testClosure1(){
 
  
 * 闭包形式2
+{% highlight swift %}
 <pre class="brush: swift;  ">
 func testClosure2(){
     // 2.简化
@@ -55,8 +56,10 @@ func testClosure2(){
     print("reslut = \(reslut)")
 }
  </pre>
-  
+{% endhighlight %}
+
 * 闭包形式3
+{% highlight swift %}
 <pre class="brush: swift;  ">
 func testClosure3(){
     // 3.简化（当闭包没有接收参数时，可省略in关键字）
@@ -71,8 +74,10 @@ func testClosure3(){
     print("reslut = \(reslut)")
 }
  </pre>
-  
+{% endhighlight %}
+
 * 闭包形式4
+{% highlight swift %}
 <pre class="brush: swift;  ">
 func testClosure4(){
     // 4.简化（省略参数名，用$0,$1,$2,$3,...代替）
@@ -86,7 +91,8 @@ func testClosure4(){
     print("reslut = \(reslut)")
 }
  </pre>
- 
+{% endhighlight %}
+
 #四、闭包的使用：值捕获
 
 定义：   
@@ -94,7 +100,7 @@ func testClosure4(){
   * 嵌套函数可以捕获其外部函数所有的参数以及定义的常量和变量。   
 
 例子：   
-
+{% highlight swift %}
 <pre class="brush: swift;  ">
 func testClosure5(){
     // 值捕获
@@ -124,7 +130,8 @@ func testClosure5(){
     
 }
  </pre>
- 
+{% endhighlight %}
+
 #五、闭包的使用：尾随闭包
 
 定义：    
@@ -133,6 +140,7 @@ func testClosure5(){
   * 在使用尾随闭包时，你不用写出它的参数标签：
 
 例子：   
+{% highlight swift %}
 <pre class="brush: swift;  ">
 func testClosure6(){
 
@@ -171,7 +179,8 @@ func testClosure6(){
     print(result3)
 }
  </pre>
- 
+{% endhighlight %}
+
 #六、闭包的使用：逃逸闭包
 
 定义：   
@@ -179,7 +188,7 @@ func testClosure6(){
   * 当你定义接受闭包作为参数的函数时，你可以在参数名之前标注 @escaping，用来指明这个闭包是允许“逃逸”出这个函数的。   
  
 例子：   
-
+{% highlight swift %}
 <pre class="brush: swift;  ">
 func testCloser7(){
     // 关键字：@escaping
@@ -202,7 +211,8 @@ func testCloser7(){
 }
 
  </pre>
- 
+{% endhighlight %}
+
 #七、闭包的使用：自动闭包
  
  定义：   
@@ -211,7 +221,7 @@ func testCloser7(){
   * 这种便利语法让你能够省略闭包的花括号，用一个普通的表达式来代替显式的闭包。
   
 例子：   
-
+{% highlight swift %}
  <pre class="brush: swift;  ">
 
 func testCloser8(){
@@ -260,6 +270,7 @@ func testCloser8(){
     // 被 @autoclosure 标记的参数 nameHandle 将自动转化为一个闭包。
 }
  </pre>
- 
+{% endhighlight %}
+
 #八、Demo 地址：   
  [https://github.com/arrfu/My-Swift3-Study/tree/master/swift3StudyDemo/JFClosuresDemo](https://github.com/arrfu/My-Swift3-Study/tree/master/swift3StudyDemo/JFClosuresDemo)
