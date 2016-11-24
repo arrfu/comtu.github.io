@@ -28,11 +28,11 @@ tags : [iOS ,json,crash]
   由上面的几个例子可以看出，无论是哪方面的原因，作为一个合格的开发人员，都必须要做好各种情况的处理，提高程序的健壮性。而不是别人随随便便传个空值给你，
 你就崩了，这样弱不禁风的应用，想必不是你真正想要的。   
 
-  那怎么处理才能解决这个问题呢？我找到的几种解决方式总结如下：(PS:如果你有更好的解决方案，请务必告知一声，非常感谢！)      
+  那怎么处理才能解决这个问题呢？我找到的几种解决方式总结如下：`(PS:如果你有更好的解决方案，请务必告知一声，非常感谢！)`      
   
     * **1.较直接的方式：**
   
-    当我们使用AFNetwork第三方库访问服务器的时候，可以用它自带的清除空值属性 removesKeysWithNullValues 为我们自动处理返回数据中携带空值的字段。   
+    当我们使用AFNetwork第三方库访问服务器的时候，可以用它自带的清除空值属性 `removesKeysWithNullValues` 为我们自动处理返回数据中携带空值的字段。  
     
 {% highlight Objective-C %}
 /**
@@ -51,7 +51,7 @@ tags : [iOS ,json,crash]
     * **2.使用第三方框架：**
   
     利用第三方框架处理服务器返回的JSON数据，将空值设置为nil，而nil是安全的，可以向nil对象发送任何message而不会奔溃。      
-    github上比较多人使用的是NullSafe ，使用方式简单，直接将该分类拖入工程中即可。      
+    github上比较多人使用的是` NullSafe` ，使用方式简单，直接将该分类拖入工程中即可。      
     [链接地址：https://github.com/nicklockwood/NullSafe](https://github.com/nicklockwood/NullSafe)   
   
     * **3.给自己的程序添加容错处理：**
