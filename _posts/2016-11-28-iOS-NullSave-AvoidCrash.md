@@ -9,7 +9,7 @@ tags : [iOS , NullSave, AvoidCrash]
 
 ******
 
-#AvoidCrash 功能介绍及使用场景：
+**AvoidCrash 功能介绍及使用场景：**
 
  * 这个框架利用runtime技术对一些常用并且容易导致崩溃的方法进行处理，可以有效的防止崩溃。
 
@@ -22,7 +22,7 @@ tags : [iOS , NullSave, AvoidCrash]
 
 [github 地址：https://github.com/chenfanfang/AvoidCrash](https://github.com/chenfanfang/AvoidCrash)
 
-#NullSave 功能介绍及使用场景：
+**NullSave 功能介绍及使用场景：**
 
   * 这个框架通过将Null控制替换为nil，而nil是安全的，可以向nil对象发送任何message而不会奔溃。可以有效的防止崩溃。
   
