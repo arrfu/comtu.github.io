@@ -25,7 +25,7 @@ blog:
     description: Keep Moving                             # 博客描述
     title: arrfu                                         # 网页标题
     url: http://arrfu.github.io/                         # 博客地址
-    duoshuo: http://weibo.com/u/2104089844                                       # 多说ID       <---
+    duoshuo: arrfu                                       # 多说ID       <---
     tongji:                                              # 百度统计ID   <--- 
     clickiTongJi: 					                     # Clicki统计ID <---
     qiniu:                                               # 七牛云地址
