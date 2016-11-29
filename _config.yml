@@ -29,6 +29,7 @@ blog:
     tongji:                                              # 百度统计ID   <--- 
     clickiTongJi: 					                     # Clicki统计ID <---
     qiniu:                                               # 七牛云地址
+    duoshuo_share: true
 author:
     name: arrfu                                          # 作者名称
     email: root@arrfu.com                                # 邮箱地址
