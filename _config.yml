@@ -29,7 +29,7 @@ blog:
     tongji:                                              # 百度统计ID   <--- 
     clickiTongJi: 					                     # Clicki统计ID <---
     qiniu:                                               # 七牛云地址
-    duoshuo_share: true
+   
 author:
     name: arrfu                                          # 作者名称
     email: root@arrfu.com                                # 邮箱地址
@@ -37,5 +37,5 @@ author:
     github: https://github.com/arrfu                     # GitHub地址
     logo: /res/img/icon.jpg                              # logo地址
     douban:
-        name:                                            # 豆瓣地址名称
+        name: arrfu                                           # 豆瓣地址名称
         key:                                             # 豆瓣API Key
