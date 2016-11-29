@@ -40,4 +40,4 @@ author:
     douban:
         name: arrfu                                           # 豆瓣地址名称
         key:                                             # 豆瓣API Key
-    favicon: /res/img/icon.jpg 
+    
