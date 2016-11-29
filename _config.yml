@@ -1,7 +1,7 @@
 markdown: kramdown
 highlighter: rouge
 #permalink: blog/:year/:month/:day/:title.html
-permalink: blog/:title.html
+permalink: :title.html
 paginate: 6	
 paginate_path: page/:num
 
