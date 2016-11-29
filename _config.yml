@@ -27,7 +27,7 @@ blog:
     title: arrfu                                         # 网页标题
     url: http://arrfu.github.io/                         # 博客地址
     duoshuo: arrfu                                       # 多说ID       <---
-    tongji:                                              # 百度统计ID   <--- 
+    tongji: 25bfa0f4ae7254dd69d9017efa436ed2                                             # 百度统计ID   <--- 
     clickiTongJi: 					                     # Clicki统计ID <---
     qiniu:                                               # 七牛云地址
    
