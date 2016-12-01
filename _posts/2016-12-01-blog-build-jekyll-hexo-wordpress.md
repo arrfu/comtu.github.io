@@ -30,6 +30,9 @@ tags : [Jekyll , hexo, wordpress,blog]
 [jekyll主题：http://www.zhanxin.info/themes.html](http://www.zhanxin.info/themes.html)      
 [搭建教程：http://www.arrfu.com/windows_configuration_Jekyll.html](http://www.arrfu.com/windows_configuration_Jekyll.html)   
 
+    jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和WordPress又有很大的不同，原因是jekyll只是一个生成静态网页的工具，
+    不需要数据库支持。但是可以配合第三方服务,例如Disqus。最关键的是jekyll可以免费部署在Github上，而且可以绑定自己的域名。
+
 优点：   
 
 * 1、jekyll是一个静态文件生成器，网站不需要数据库，只要把自己的博客放到对应的目录即可。
@@ -63,6 +66,14 @@ tags : [Jekyll , hexo, wordpress,blog]
 
 ***3)、wordpress主题***
 
+[wordpress主题：https://www.wpdaxue.com/themes/](https://www.wpdaxue.com/themes/)  
+[安装搭建教程：http://ztmao.com/jiaocheng/2352.html](http://ztmao.com/jiaocheng/2352.html)
+
+    WordPress是一种使用PHP语言开发的博客平台，用户可以在支持PHP和MySQL数据库的服务器上架设属于自己的网站。
+    用户可以在支持 PHP 和 MySQL数据库的服务器上使用自己的博客。
+    WordPress有许多第三方开发的免费模板，安装方式简单易用。不过要做一个自己的模板，则需要你有一定的专业知识。
+    比如你至少要懂的标准通用标记语言下的一个应用HTML代码、CSS、PHP等相关知识。
+
 优点：  
 
 * 1、安装简单方便，甚至很多虚拟主机供应商都提供了Wordpress的一键式安装工具。用户连上传文件的步骤都省了。   
@@ -75,7 +86,7 @@ tags : [Jekyll , hexo, wordpress,blog]
 * 2、迁移成本高，且插件装多了会变慢。
 * 3、Wordpress对于中小型网站应该是不错的选择，但对于大型的门户网站，数据库、用户管理、内容的分类管理等方面的限制，还是会让Wordpress会有些力不从心的吧。  
 
-[安装搭建教程：http://ztmao.com/jiaocheng/2352.html](http://ztmao.com/jiaocheng/2352.html)
+
 
 **三、部署博客的主机选择**
 
