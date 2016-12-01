@@ -19,12 +19,12 @@ tags : [Jekyll , hexo, wordpress,blog]
 
 个人有个不成熟的小建议：
 
-  * 如果你不想付费，也不想备案，那你基本上就已经确定了前面两种方案了，免费版走起。
-  * 如果你是高富帅，或者要求较高又不想浪费多余精力在搭建博客上面，那强力推荐采用第三个方案。轻松加愉快，爽的飞起。   
+* 如果你不想付费，也不想备案，那你基本上就已经确定了前面两种方案了，免费版走起。
+* 如果你是高富帅，或者要求较高又不想浪费多余精力在搭建博客上面，那强力推荐采用第三个方案。轻松加愉快，爽的飞起。   
   
 **二、博客主题选择：**
 
-***1)、jekyll***
+***1)、jekyll主题***
 
 [官网：http://jekyllrb.com](http://jekyllrb.com)   
 [jekyll主题：http://www.zhanxin.info/themes.html](http://www.zhanxin.info/themes.html)      
@@ -47,9 +47,9 @@ tags : [Jekyll , hexo, wordpress,blog]
 [hexo主题：https://hexo.io/themes/](https://hexo.io/themes/)      
 [搭建教程：http://baixin.io/](http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)  
 
-   Hexo是一个基于node.js的静态博客生成系统，它使用markdown语法来写作，同时支持丰富的自定义标签系统。   
-   用户在本地安装Hexo系统并进行写作，通过一条命令，Hexo可以自动生成静态页面，并发布到多个平台上。
-   与传统的博客相比，Hexo可以说是一个本地运行远程发布的博客程序。     
+    Hexo是一个基于node.js的静态博客生成系统，它使用markdown语法来写作，同时支持丰富的自定义标签系统。   
+    用户在本地安装Hexo系统并进行写作，通过一条命令，Hexo可以自动生成静态页面，并发布到多个平台上。
+    与传统的博客相比，Hexo可以说是一个本地运行远程发布的博客程序。     
    
 优点：
 
@@ -61,7 +61,7 @@ tags : [Jekyll , hexo, wordpress,blog]
 * 1、每次在一台新电脑或者别人电脑首次使用时，都要重新安装和配置编译环境，不适合随时随地愉快的写博客。（不能优雅的装逼，略微不爽）
 * 2、相对Wordpress而言，没有强大的后台和插件支持，学习成本较高，需要一些网页基础。
 
-***3)、wordpress***
+***3)、wordpress主题***
 
 优点：  
 
@@ -71,10 +71,8 @@ tags : [Jekyll , hexo, wordpress,blog]
        
 缺点：
 
-* 1、对域名空间要求，wp需要自己购买虚拟主机，低配版大概两百多块。
-    
+* 1、对域名空间要求，wp需要自己购买虚拟主机，低配版大概两百多块。   
 * 2、迁移成本高，且插件装多了会变慢。
-    
 * 3、Wordpress对于中小型网站应该是不错的选择，但对于大型的门户网站，数据库、用户管理、内容的分类管理等方面的限制，还是会让Wordpress会有些力不从心的吧。  
 
 [安装搭建教程：http://ztmao.com/jiaocheng/2352.html](http://ztmao.com/jiaocheng/2352.html)
@@ -87,7 +85,7 @@ tags : [Jekyll , hexo, wordpress,blog]
 
 * 3、国内付费主机(阿里云，西部数码等)
 
-***github:***
+***将博客部署在 github:***
 
 ****优点：****
 
@@ -113,14 +111,14 @@ Apologies again for the inconvenience.
 
 大致意思就是百度爬虫爬得太猛烈，已经对很多 Github 用户造成了可用性的问题了，而禁用百度爬虫这一举措可能会一直持续下去。
 
-***coding***
+***将博客部署在 coding***
 
 优点：
 
 * 1、解决了github上的博客不能被百度爬虫抓取和收录的问题。
 * 2、国内访问速度较快，不需要翻墙。
     
-***国内付费主机***
+***将博客部署在 国内付费主机***
 
 优点：
 
