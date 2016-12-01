@@ -11,10 +11,10 @@ tags : [Jekyll , hexo, wordpress,blog]
 
 **一、博客搭建可行性方案：** 
 
-就我目前所了解到的，较多人采用的博客搭建方案有如下几种：   
-* 1.Git+Github+Markdown+jekyll （免费）  
-* 2.Git+Github+Markdown+hexo   （免费）
-* 3.虚拟主机＋插件＋Wordpress  （付费）
+就我目前所了解到的，较多人采用的博客搭建方案有如下几种：   
+* 1、Git+Github+Markdown+jekyll （免费）  
+* 2、Git+Github+Markdown+hexo   （免费）
+* 3、虚拟主机＋插件＋Wordpress  （付费）
 
 个人有个不成熟的小建议：
   * 如果你不想付费，也不想备案，那你基本上就已经确定了前面两种方案了，免费版走起。
@@ -28,7 +28,7 @@ tags : [Jekyll , hexo, wordpress,blog]
 [jekyll主题：http://www.zhanxin.info/themes.html](http://www.zhanxin.info/themes.html)      
 [搭建教程：http://www.arrfu.com/windows_configuration_Jekyll.html](http://www.arrfu.com/windows_configuration_Jekyll.html)   
 
-****优点：****
+###优点：###
 * 1、jekyll是一个静态文件生成器，网站不需要数据库，只要把自己的博客放到对应的目录即可。
 * 2、能部署到github或者gitcafe上，不需要自己的vps，因为是静态的，迁移起来非常方便。
 * 3、原生支持markdown。现在github默认支持jekyll, 所以原生的文件如果放到github上，它会自动帮你生成静态网站。
