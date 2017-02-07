@@ -175,7 +175,7 @@ tags : [personal , review, year-end]
 完成度：暂无
 
 * 4、SegmentFault : Reputation 29 -> 80。   
- 完成度：暂无
+完成度：SegmentFault-arrfu + 1 Stars [2%]
 
 * 5、swift3 需要在 3 月份之前学完所有语法和基本使用，7 月份之前用 swift 写一个小应用发到 GitHub 上。   
 完成度：暂无
