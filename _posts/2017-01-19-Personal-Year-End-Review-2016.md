@@ -166,16 +166,16 @@ tags : [personal , review, year-end]
 ***时间：2017 年 01 月 16 日 - 2017 年 12 月 31 日***
 
 * 1、个人博客平均每 2 周写一篇博客。  
-完成度：暂无
+完成度：Blog-[arrfu](http://www.arrfu.com/) ***+ 1 ***
 
 * 2、GitHub 开源 2 个项目，每个项目收获  10 个 Star。   
-完成度：暂无
+完成度：GitHub-[arrfu](https://github.com/arrfu)
 
 * 3、StackOverflow : Reputation 102 -> 300。   
-完成度：暂无
+完成度：StackOverflow-[arrfu](http://stackoverflow.com/)
 
 * 4、SegmentFault : Reputation 29 -> 80。   
-完成度：SegmentFault-arrfu + 1 Stars [2%]
+完成度：SegmentFault-[arrfu](https://segmentfault.com/u/arrfu) ***+ 5 Stars [9%]***
 
 * 5、swift3 需要在 3 月份之前学完所有语法和基本使用，7 月份之前用 swift 写一个小应用发到 GitHub 上。   
-完成度：暂无
+完成度：
