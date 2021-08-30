@@ -41,20 +41,7 @@ func testClosure1(){
 }
 
 {% endhighlight %}
-```
-// 测试
-func test11111Closure1(){
-    // 1.typealias关键字的使用，跟oc中的typedef类似
-    typealias ClosureAdd = (_ num1:Int,_ num2:Int) -> Int // 给闭包起别名为：ClosureAdd
-    let closureAdd:ClosureAdd = {
-        (_ num1:Int,_ num2:Int) in
-        return num1+num2
-    }
 
-    let reslut = closureAdd(2, 3)
-    print("reslut = \(reslut)")
-}
-```
  
 * 闭包形式2
 
@@ -209,7 +196,7 @@ func testClosure6(){
  
 例子：   
 {% highlight swift %}
-```
+
 func testCloser7(){
     // 关键字：@escaping
     
@@ -230,7 +217,7 @@ func testCloser7(){
     print(closerArray.first?(num))
 }
 
-```
+
 {% endhighlight %}
 
 **七、闭包的使用：自动闭包**
