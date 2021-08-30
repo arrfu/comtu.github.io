@@ -194,7 +194,7 @@ func testClosure6(){
  
 例子：   
 {% highlight swift %}
-
+```
 func testCloser7(){
     // 关键字：@escaping
     
@@ -215,7 +215,7 @@ func testCloser7(){
     print(closerArray.first?(num))
 }
 
-
+```
 {% endhighlight %}
 
 **七、闭包的使用：自动闭包**
