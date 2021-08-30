@@ -27,6 +27,7 @@ tags : [iOS ,swift,closure]
  
 * 闭包形式1
 {% highlight swift %}
+
 func testClosure1(){
     // 1.typealias关键字的使用，跟oc中的typedef类似
     typealias ClosureAdd = (_ num1:Int,_ num2:Int) -> Int // 给闭包起别名为：ClosureAdd
@@ -38,8 +39,22 @@ func testClosure1(){
     let reslut = closureAdd(2, 3)
     print("reslut = \(reslut)")
 }
-{% endhighlight %}
 
+{% endhighlight %}
+```
+// 测试
+func test11111Closure1(){
+    // 1.typealias关键字的使用，跟oc中的typedef类似
+    typealias ClosureAdd = (_ num1:Int,_ num2:Int) -> Int // 给闭包起别名为：ClosureAdd
+    let closureAdd:ClosureAdd = {
+        (_ num1:Int,_ num2:Int) in
+        return num1+num2
+    }
+
+    let reslut = closureAdd(2, 3)
+    print("reslut = \(reslut)")
+}
+```
  
 * 闭包形式2
 
